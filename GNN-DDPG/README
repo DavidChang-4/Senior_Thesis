@@ -1,0 +1,13 @@
+1. Use 'GNN' Conda Env.
+
+2. Installations in Conda Env:
+    conda install python=3.11 (latest version compatible with pettingzoo)
+    pip install torch torchvision (version 2.5.1, version 0.20.1)
+    pip install pettingzoo (version 1.24.3)
+    pip install 'pettingzoo[mpe]'
+    pip install matplotlib (version 3.10.0)
+    pip install pandas (version 2.2.3)
+    pip install torch_geometric (2.6.1)
+    ipykernel package from conda-forge
+    
+    pip install torchrl

@@ -1,0 +1,24 @@
+1. Use 'MPE' Conda Env.
+
+2. Installations in Conda Env:
+    conda install python=3.11 (latest version compatible with pettingzoo)
+    pip install torch (version 2.5.1)
+    pip install pettingzoo (version 1.24.3)
+    pip install 'pettingzoo[mpe]'
+    pip install matplotlib (version 3.10.0)
+    pip install pandas (version 2.2.3)
+    pip install torch_geometric (2.6.1)
+    ipykernel package from conda-forge
+
+    pip install torchrl (version 0.6.0)
+    pip install vmas (version 1.4.3)
+
+    pip install torchvision (version 0.20.1)
+    pip install av==12.0.0 (latest version has bugs with saving video) 
+
+3. Saving and loading models:
+    - Do NOT 'run all' before checking that saving the 'file_name' to Models and Videos won't overwrite. 
+    - To load + retrain models:
+        1. Run code cells above Main Training Loop
+        2. Run load() cell
+        3. Run training loop and graph
